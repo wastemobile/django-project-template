@@ -113,7 +113,7 @@ USE_TZ = True
 
 CSRF_COOKIE_SECURE = env.bool('CSRF_COOKIE_SECURE', default=False)
 SESSION_COOKIE_SECURE = env.bool('SESSION_COOKIE_SECURE', default=False)
-SECURE_PROXY_SSL_HEADER = env.tuple('SECURE_PROXY_SSL_HEADER')
+SECURE_PROXY_SSL_HEADER = env.tuple('SECURE_PROXY_SSL_HEADER', default=())
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
