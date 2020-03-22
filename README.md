@@ -6,10 +6,13 @@
 2. pipenv --python 3.6.9 (Ubuntu 18.04 LTS default python version)
 3. pipenv install django django-environ
 4. pipenv shell
-5. (v)django-admin startproject --template https://github.com/wastemobile/django-project-template/archive/master.zip <appname> .
-6. cd _proj
-7. ./gen_local_env.sh <appname>
+5. (v)django-admin startproject --template https://github.com/wastemobile/django-project-template/archive/master.zip `<appname>` .
+6. (v)cd _proj
+7. (v)./gen_local_env.sh `<appname>`
+8. (v)cd ..
+9. (v)python manage.py runserver
 
+> I always set `<appname>` to `config`.
 > ps. Have to learn how to write environment file..., study [django-environ](https://github.com/joke2k/django-environ) first.
 
 ## Reference
