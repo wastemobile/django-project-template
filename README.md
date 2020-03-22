@@ -7,7 +7,7 @@
 3. pipenv install django django-environ
 4. pipenv shell
 5. (v)django-admin startproject --template https://github.com/wastemobile/django-project-template/archive/master.zip <appname> .
-6. cd .proj
+6. cd _proj
 7. ./gen_local_env.sh <appname>
 
 > ps. Have to learn how to write environment file..., study [django-environ](https://github.com/joke2k/django-environ) first.
