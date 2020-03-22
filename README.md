@@ -13,6 +13,7 @@
 9. (v)python manage.py runserver
 
 > I always set `<appname>` to `config`.
+
 > ps. Have to learn how to write environment file..., study [django-environ](https://github.com/joke2k/django-environ) first.
 
 ## Reference
