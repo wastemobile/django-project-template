@@ -1,6 +1,6 @@
 # Django Project Template for Automation
 
-## 本地開發設定
+## 本地開發設定（整合 webpack loader）
 
 1. mkdir myproject && cd myproject
 2. pipenv --python 3.6.9 (Ubuntu 18.04 LTS default python version)
@@ -8,9 +8,12 @@
 4. pipenv shell
 5. (v)django-admin startproject --template https://github.com/wastemobile/django-project-template/archive/master.zip `<appname>` .
 6. (v)cd _proj
-7. (v)./gen_local_env.sh `<appname>`
+7. (v)./gen_local_env.sh `<appname>` 自動生成本地環境的 `.env`
 8. (v)cd ..
-9. (v)python manage.py runserver
+9. (v)npm install `安裝 webpack 流程工具以及 bulma 前端設計框架`
+10. (v)npm run build `產生本地使用的前端樣式`
+11. (v)npm run deploy `產生正式環境使用的前端樣式（簡化並壓縮）`
+12. (v)python manage.py runserver
 
 > I always set `<appname>` to `config`.
 
