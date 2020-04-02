@@ -1,0 +1,1 @@
+require('./_scss/style.scss');
